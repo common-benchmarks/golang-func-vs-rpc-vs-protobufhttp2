@@ -7,7 +7,9 @@ The main aim of this repo is to benchmark the performance of normal "in-memory" 
 ## Running the benchmark
 
 `go get -u github.com/common-benchmarks/golang-func-vs-rpc-vs-protobufhttp2`
+
 `cd %GOPATH%/src/github.com/common-benchmarks/golang-func-vs-rpc-vs-protobufhttp2`
+
 `go test --bench .`
 
 ## Benchmark results
